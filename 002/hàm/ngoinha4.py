@@ -1,0 +1,52 @@
+import turtle
+
+# Set the window dimensions
+window = turtle.Screen()
+
+# Create the turtle
+t = turtle.Turtle()
+
+# Draw the house
+t.penup()
+t.goto(-150,0)
+t.pendown()
+t.begin_fill()
+t.color("gray")
+t.forward(400)
+t.left(90)
+t.forward(300)
+t.left(90)
+t.forward(400)
+t.left(90)
+t.forward(300)
+t.left(90)
+t.end_fill()
+
+t.penup()
+t.goto(-100, -100)
+t.pendown()
+t.begin_fill()
+t.color("red")
+t.forward(200)
+t.left(90)
+t.forward(200)
+t.left(90)
+t.forward(200)
+t.left(90)
+t.forward(200)
+t.left(90)
+t.end_fill()
+
+t.penup()
+t.goto(-200, 0)
+t.pendown()
+t.begin_fill()
+t.color("blue")
+t.left(45)
+t.forward(282)
+t.left(90)
+t.forward(282)
+t.left(135)
+t.forward(400)
+t.end_fill()
+turtle.done()
