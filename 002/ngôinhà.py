@@ -1,14 +1,13 @@
 import turtle
 t = turtle.Turtle()
-t.fillcolor("blue")
 t.begin_fill()
-t.forward(200)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(200)
-t.right(90)
-t.forward(100)
+t.fillcolor("blue")
+def draw_house():
+    for k in range(4):
+        t.forward(200)
+        t.right(90)
+        t.forward(100)
+        t.right(90)
 t.right(45)
 t.forward(142.5)
 t.right(90)
